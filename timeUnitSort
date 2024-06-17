@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+./gen $1 $2 | /usr/bin/time -f "%U" ./$3 > /dev/null 
